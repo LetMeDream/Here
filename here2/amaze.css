@@ -1,0 +1,189 @@
+/* Image */
+.imge{
+    height:550px;
+   
+    /*Verticall alignment logic 1/2*/
+    height: 700; /*can be anything*/
+    width: 700px; /*can be anything*/
+    position: relative;
+    /*END*/
+    
+ 
+}
+
+.img-fluid{
+    /*Verticall Alignment logic 2/2*/
+    max-height: 80%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+    
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 60px;
+    
+}
+    /*END*/
+
+
+
+
+/*Just trying bullshit out, with codrops CONNECT animated header*/
+html body div.container-fluid.demo-1 div.row div.content div#large-header.large-header canvas#demo-canvas{
+  
+}
+
+/*Up until here*/
+  
+   
+   
+
+.fill-screen{
+    background-image: url(img/virtual.jpg);
+    
+}
+
+
+
+/*NavBar*/
+
+html body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div#navbarSupportedContent.navbar-collapse.collapse ul.navbar-nav.mr-auto li.nav-item a.nav-link{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #bbb;
+}
+html body header nav.navbar.navbar-expand-lg.navbar-dark.bg-dark div#navbarSupportedContent.navbar-collapse.collapse ul.navbar-nav.mr-auto li.nav-item a.nav-link:hover{
+    
+    color: white;
+}
+
+.logoImg{
+    margin-left: 60px;
+    width: 60px;
+    
+}
+
+.navbar{
+    padding: 15px 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+body{
+    
+}
+html body div.container-fluid div.row aside.col-sm-3.col-md-4.col-lg-2.order-sm-1.order-lg-1 div.titles-list img{
+   margin-top: 25px;
+   margin-bottom: 30px;
+}
+/* HERE STARTS THE ANIMATED HEADER STUFF*/
+
+.cbp-af-header-shrink{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    opacity: 0.9    ;
+}
+
+
+
+/*End of navbar*/
+
+
+p{
+    line-height: 99px;
+}
+footer{
+    background-color: #f7f7f7;
+    color: black;
+    text-align: center;
+    height:100px;
+}
+aside{
+    background-color: #f7f7f7;
+    text-align: center;
+    min-height: 100%;
+    padding-top: 40px;
+    
+}
+.col-12{
+    background-color: #333;
+}
+section{
+    text-align: center;
+    min-height:100%;
+    
+    /*background-image: url('img/sakurasunday2.jpg');*/
+}
+.pic{
+    width: 175px;
+}
+h2, p{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.wolfPic1 > img:nth-child(1){
+    max-width:50%;
+    max-height: 50%; /* you can use % */
+    height: auto;
+
+}
+#forClarity{
+    color:gray;
+    font-size: 17px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.titles-list{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.titles-list > h4{
+    color: darkorange;
+    margin-bottom: 40px;
+}
+.another-list{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.another-list > h6, p{
+    color: white;
+}
+html body footer.container-fluid p{
+    color: black;
+}
+html body div.container-fluid div.row aside.col-sm-2.order-sm-3{
+    background-color: #333;
+}
+.another > h6{
+    color: #fff;
+}
+.list-top{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ 
+}
+div.container-fluid:nth-child(2) > div:nth-child(1){
+    background-color: #333;
+}
+
+.list-top> a{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+html body div.container-fluid div.row aside.another-list.col-12.col-lg-2.order-sm-2.order-lg-3.d-md-none.d-lg-block a{
+    color:#fff;
+}
+html body div.container-fluid div.row aside.col-sm-3.col-md-4.col-lg-2.order-sm-1.order-lg-1 div.titles-list a{
+    color:darkorange;
+}
+
+html body div.container-fluid div.row section.col-sm-9.col-md-8.col-lg-8.order-sm-2.order-lg-2{
+    background-color: #FFF;
+}
