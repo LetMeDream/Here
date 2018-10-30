@@ -192,7 +192,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						
 					
 						<label for='e'>Teléfono: </label><span class='error'></span>
-						<input id='e' type="text" name="telNumber" value="<?php echo $telNumber;?>">
+						<input autocomplete='off' id='e' type="text" name="telNumber" value="<?php echo $telNumber;?>">
 					
 						
 
