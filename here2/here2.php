@@ -1,4 +1,9 @@
-
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +19,7 @@
 <!-- //web font -->
 </head>
 <body>
-<?php
+	<?php
             
 			// define variables and set to empty values
 						$nameErr = $emailErr = $genderErr = $websiteErr = $apellidoErr = "";
@@ -162,7 +167,7 @@
 		<h1>Ingrese datos del cliente</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+				<form action="" method="post">
 					
 						<label for='a'>Nombre: </label><span class="error">* <?php echo $nameErr;?></span>
            				<input  id='a' autocomplete='off' type="text" name="name" value="<?php echo $name;?>">
@@ -187,7 +192,7 @@
 						
 					
 						<label for='e'>Teléfono: </label><span class='error'></span>
-						<input autocomplete='off' id='e' type="text" name="telNumber" value="<?php echo $telNumber;?>">
+						<input id='e' autocomplete='off' type="text" name="telNumber" value="<?php echo $telNumber;?>">
 					
 						
 

@@ -1,10 +1,28 @@
-.error {
-  color: #FF0000;
-  
+/* TABLE RESPONSIVENESS */
+
+
+
+
+
+html body div.here ul li{
+  list-style-type: square;
+}
+.here{
+  width:70%;
+  margin-left: 20px;
 }
 
 
 
+
+
+
+
+
+.error {
+  color: #FF0000;
+  
+}
 
 #a{
   margin:4px;
@@ -32,8 +50,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+
 ol, ul {
-  list-style: none;
+ 
   margin: 0px;
   padding: 0px;
 }
